@@ -23,11 +23,11 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: ['element-ui/lib/theme-chalk/index.css'],
+  css: ['normalize.css', '@/theme/index.css'],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/element-ui'],
+  plugins: ['@/plugins/element-ui.js'],
   /*
    ** Nuxt.js dev-modules
    */
@@ -43,7 +43,6 @@ module.exports = {
    ** Build configuration
    */
   build: {
-    transpile: [/^element-ui/],
     /*
      ** You can extend webpack config here
      */
