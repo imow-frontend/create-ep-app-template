@@ -18,7 +18,9 @@
     "element-ui": "^2.13.2",
     "express": "^4.16.4",
     "normalize.css": "^8.0.1",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",

@@ -27,7 +27,10 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/element-ui.js'],
+  plugins: [
+    '@/plugins/element-ui.js',
+    { src: '@/plugins/setTokenIfNotExist.js', mode: 'client' }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
